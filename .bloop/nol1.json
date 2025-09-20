@@ -1,0 +1,322 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "nol1",
+        "directory": "C:\\Users\\1\\AppData\\Local\\Programs\\Microsoft VS Code\\LAB\\noL1",
+        "workspaceDir": "C:\\Users\\1\\AppData\\Local\\Programs\\Microsoft VS Code\\LAB\\noL1",
+        "sources": [
+            "C:\\Users\\1\\AppData\\Local\\Programs\\Microsoft VS Code\\LAB\\noL1\\src\\main\\scala",
+            "C:\\Users\\1\\AppData\\Local\\Programs\\Microsoft VS Code\\LAB\\noL1\\src\\main\\scala-2.12",
+            "C:\\Users\\1\\AppData\\Local\\Programs\\Microsoft VS Code\\LAB\\noL1\\src\\main\\scala-2",
+            "C:\\Users\\1\\AppData\\Local\\Programs\\Microsoft VS Code\\LAB\\noL1\\src\\main\\java",
+            "C:\\Users\\1\\AppData\\Local\\Programs\\Microsoft VS Code\\LAB\\noL1\\target\\scala-2.12\\src_managed\\main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\1\\.sbt\\boot\\scala-2.12.20\\lib\\scala-library.jar",
+            "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafx_2.12\\16.0.0-R24\\scalafx_2.12-16.0.0-R24.jar",
+            "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-base\\17.0.2\\javafx-base-17.0.2-win.jar",
+            "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-controls\\17.0.2\\javafx-controls-17.0.2-win.jar",
+            "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-graphics\\17.0.2\\javafx-graphics-17.0.2-win.jar",
+            "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-media\\17.0.2\\javafx-media-17.0.2-win.jar",
+            "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-swing\\17.0.2\\javafx-swing-17.0.2-win.jar",
+            "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-web\\17.0.2\\javafx-web-17.0.2-win.jar",
+            "C:\\Users\\1\\.sbt\\boot\\scala-2.12.20\\lib\\scala-reflect.jar",
+            "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-graphics\\17.0.2\\javafx-graphics-17.0.2.jar",
+            "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-base\\17.0.2\\javafx-base-17.0.2.jar",
+            "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-controls\\17.0.2\\javafx-controls-17.0.2.jar",
+            "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-media\\17.0.2\\javafx-media-17.0.2.jar"
+        ],
+        "out": "C:\\Users\\1\\AppData\\Local\\Programs\\Microsoft VS Code\\LAB\\noL1\\.bloop\\nol1",
+        "classesDir": "C:\\Users\\1\\AppData\\Local\\Programs\\Microsoft VS Code\\LAB\\noL1\\.bloop\\nol1\\scala-2.12\\classes",
+        "resources": [
+            "C:\\Users\\1\\AppData\\Local\\Programs\\Microsoft VS Code\\LAB\\noL1\\src\\main\\resources",
+            "C:\\Users\\1\\AppData\\Local\\Programs\\Microsoft VS Code\\LAB\\noL1\\target\\scala-2.12\\resource_managed\\main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.20",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\1\\.sbt\\boot\\scala-2.12.20\\lib\\scala-library.jar",
+                "C:\\Users\\1\\.sbt\\boot\\scala-2.12.20\\lib\\scala-compiler.jar",
+                "C:\\Users\\1\\.sbt\\boot\\scala-2.12.20\\lib\\scala-reflect.jar",
+                "C:\\Users\\1\\.sbt\\boot\\scala-2.12.20\\lib\\scala-xml_2.12-2.3.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Java\\jdk-21",
+                "options": [
+                    "-Duser.dir=C:\\Users\\1\\AppData\\Local\\Programs\\Microsoft VS Code\\LAB\\noL1"
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "runtimeConfig": {
+                "home": "C:\\Program Files\\Java\\jdk-21",
+                "options": [
+                    "-Duser.dir=C:\\Users\\1\\AppData\\Local\\Programs\\Microsoft VS Code\\LAB\\noL1"
+                ]
+            },
+            "classpath": [
+                "C:\\Users\\1\\AppData\\Local\\Programs\\Microsoft VS Code\\LAB\\noL1\\.bloop\\nol1\\scala-2.12\\classes",
+                "C:\\Users\\1\\.sbt\\boot\\scala-2.12.20\\lib\\scala-library.jar",
+                "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafx_2.12\\16.0.0-R24\\scalafx_2.12-16.0.0-R24.jar",
+                "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-base\\17.0.2\\javafx-base-17.0.2-win.jar",
+                "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-controls\\17.0.2\\javafx-controls-17.0.2-win.jar",
+                "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-graphics\\17.0.2\\javafx-graphics-17.0.2-win.jar",
+                "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-media\\17.0.2\\javafx-media-17.0.2-win.jar",
+                "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-swing\\17.0.2\\javafx-swing-17.0.2-win.jar",
+                "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-web\\17.0.2\\javafx-web-17.0.2-win.jar",
+                "C:\\Users\\1\\.sbt\\boot\\scala-2.12.20\\lib\\scala-reflect.jar",
+                "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-graphics\\17.0.2\\javafx-graphics-17.0.2.jar",
+                "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-base\\17.0.2\\javafx-base-17.0.2.jar",
+                "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-controls\\17.0.2\\javafx-controls-17.0.2.jar",
+                "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-media\\17.0.2\\javafx-media-17.0.2.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\1\\.sbt\\boot\\scala-2.12.20\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.20\\scala-library-2.12.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalafx",
+                    "name": "scalafx_2.12",
+                    "version": "16.0.0-R24",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalafx_2.12",
+                            "path": "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafx_2.12\\16.0.0-R24\\scalafx_2.12-16.0.0-R24.jar"
+                        },
+                        {
+                            "name": "scalafx_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafx_2.12\\16.0.0-R24\\scalafx_2.12-16.0.0-R24-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "C:\\Users\\1\\.sbt\\boot\\scala-2.12.20\\lib\\scala-reflect.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.12.20\\scala-reflect-2.12.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-graphics",
+                    "version": "17.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-graphics",
+                            "path": "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-graphics\\17.0.2\\javafx-graphics-17.0.2.jar"
+                        },
+                        {
+                            "name": "javafx-graphics",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-graphics\\17.0.2\\javafx-graphics-17.0.2-sources.jar"
+                        },
+                        {
+                            "name": "javafx-graphics",
+                            "classifier": "win",
+                            "path": "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-graphics\\17.0.2\\javafx-graphics-17.0.2-win.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-base",
+                    "version": "17.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-base",
+                            "path": "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-base\\17.0.2\\javafx-base-17.0.2.jar"
+                        },
+                        {
+                            "name": "javafx-base",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-base\\17.0.2\\javafx-base-17.0.2-sources.jar"
+                        },
+                        {
+                            "name": "javafx-base",
+                            "classifier": "win",
+                            "path": "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-base\\17.0.2\\javafx-base-17.0.2-win.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-controls",
+                    "version": "17.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-controls",
+                            "path": "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-controls\\17.0.2\\javafx-controls-17.0.2.jar"
+                        },
+                        {
+                            "name": "javafx-controls",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-controls\\17.0.2\\javafx-controls-17.0.2-sources.jar"
+                        },
+                        {
+                            "name": "javafx-controls",
+                            "classifier": "win",
+                            "path": "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-controls\\17.0.2\\javafx-controls-17.0.2-win.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-media",
+                    "version": "17.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-media",
+                            "path": "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-media\\17.0.2\\javafx-media-17.0.2.jar"
+                        },
+                        {
+                            "name": "javafx-media",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-media\\17.0.2\\javafx-media-17.0.2-sources.jar"
+                        },
+                        {
+                            "name": "javafx-media",
+                            "classifier": "win",
+                            "path": "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\openjfx\\javafx-media\\17.0.2\\javafx-media-17.0.2-win.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.20",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\1\\.sbt\\boot\\scala-2.12.20\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\1\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.20\\scala-library-2.12.20-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

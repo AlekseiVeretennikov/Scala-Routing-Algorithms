@@ -1,0 +1,4 @@
+[debug] [nol1-test] Classpath dependencies List()
+[debug] [nol1-test] Dependencies from configurations List(nol1)
+[debug] Bloop wrote the configuration of project 'nol1-test' to 'C:\Users\1\AppData\Local\Programs\Microsoft VS Code\LAB\noL1\.bloop\nol1-test.json'
+[success] Generated .bloop\nol1-test.json
